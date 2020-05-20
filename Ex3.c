@@ -12,6 +12,8 @@
 /*
   I don’t know why it does not display all the necessary information,
   when it launched through the command line, but it works fine in sublime.
+  If you know what is wrong with this programm, send an explanation message.
+  I'll be happy to understood what mistake I make.
 */   
 
 void Permissions(struct stat itemStats)
