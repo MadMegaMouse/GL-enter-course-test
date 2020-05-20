@@ -12,7 +12,7 @@
 /*
   I don’t know why it does not display all the necessary information,
   when it launched through the command line, but it works fine in sublime.
-  If you know what is wrong with this programm, send an explanation message.
+  If you know what is wrong with this programm, send an explanation message on townofthegoo@gmail.com.
   I'll be happy to understood what mistake I make.
 */   
 
