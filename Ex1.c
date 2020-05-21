@@ -7,13 +7,9 @@ int main( int argc, char *argv[] )  {
 	char *k = argv[2];
 	N = atoi(n); // char * to int
 	K = atoi(k); // char * to int
-	O = N%K; 
-	if (O != 0){
-		T = N/K + 1;
-	}
-	else{
-		T = N/K;
-	}
+	O = N%K;
+	T = N/K;
+	if (O != 0) {T++}
 	printf("Stairs: %i \n", N);
 	printf("Stairs per step: %i \n", K);
 	printf("Total steps: %i \n", T);
