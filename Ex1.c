@@ -9,7 +9,7 @@ int main( int argc, char *argv[] )  {
 	K = atoi(k); // char * to int
 	O = N%K;
 	T = N/K;
-	if (O != 0) {T++}
+	if (O != 0) {T++;}
 	printf("Stairs: %i \n", N);
 	printf("Stairs per step: %i \n", K);
 	printf("Total steps: %i \n", T);
